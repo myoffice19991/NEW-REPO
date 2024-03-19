@@ -13,7 +13,7 @@ def main():
         if play:
             score, streak = play_game(name)
             st.write("SCORE:", score)
-            save_player_data(name, score, streak)
+            #save_player_data(name, score, streak)
             st.write("Game Over!")
 
 if __name__ == "__main__":
